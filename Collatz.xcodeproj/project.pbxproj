@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39C144D21483A7DC003A2FD9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 39C144D11483A7DC003A2FD9 /* main.c */; };
+		39C144D41483A7DC003A2FD9 /* Collatz.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 39C144D31483A7DC003A2FD9 /* Collatz.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39C144CB1483A7DC003A2FD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				39C144D41483A7DC003A2FD9 /* Collatz.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		39C144CD1483A7DC003A2FD9 /* Collatz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Collatz; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C144D11483A7DC003A2FD9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		39C144D31483A7DC003A2FD9 /* Collatz.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Collatz.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C144CA1483A7DC003A2FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C144C21483A7DC003A2FD9 = {
+			isa = PBXGroup;
+			children = (
+				39C144D01483A7DC003A2FD9 /* Collatz */,
+				39C144CE1483A7DC003A2FD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39C144CE1483A7DC003A2FD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C144CD1483A7DC003A2FD9 /* Collatz */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C144D01483A7DC003A2FD9 /* Collatz */ = {
+			isa = PBXGroup;
+			children = (
+				39C144D11483A7DC003A2FD9 /* main.c */,
+				39C144D31483A7DC003A2FD9 /* Collatz.1 */,
+			);
+			path = Collatz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39C144CC1483A7DC003A2FD9 /* Collatz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C144D71483A7DC003A2FD9 /* Build configuration list for PBXNativeTarget "Collatz" */;
+			buildPhases = (
+				39C144C91483A7DC003A2FD9 /* Sources */,
+				39C144CA1483A7DC003A2FD9 /* Frameworks */,
+				39C144CB1483A7DC003A2FD9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Collatz;
+			productName = Collatz;
+			productReference = 39C144CD1483A7DC003A2FD9 /* Collatz */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C144C41483A7DC003A2FD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Lemmens inc";
+			};
+			buildConfigurationList = 39C144C71483A7DC003A2FD9 /* Build configuration list for PBXProject "Collatz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39C144C21483A7DC003A2FD9;
+			productRefGroup = 39C144CE1483A7DC003A2FD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C144CC1483A7DC003A2FD9 /* Collatz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C144C91483A7DC003A2FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C144D21483A7DC003A2FD9 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39C144D51483A7DC003A2FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		39C144D61483A7DC003A2FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		39C144D81483A7DC003A2FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39C144D91483A7DC003A2FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C144C71483A7DC003A2FD9 /* Build configuration list for PBXProject "Collatz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C144D51483A7DC003A2FD9 /* Debug */,
+				39C144D61483A7DC003A2FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C144D71483A7DC003A2FD9 /* Build configuration list for PBXNativeTarget "Collatz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C144D81483A7DC003A2FD9 /* Debug */,
+				39C144D91483A7DC003A2FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39C144C41483A7DC003A2FD9 /* Project object */;
+}
